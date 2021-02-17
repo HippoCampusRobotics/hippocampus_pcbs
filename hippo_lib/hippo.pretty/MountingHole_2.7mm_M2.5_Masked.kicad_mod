@@ -1,4 +1,4 @@
-(module MountingHole_2.7mm_M2.5_Masked (layer F.Cu) (tedit 602A8283)
+(module MountingHole_2.7mm_M2.5_Masked (layer F.Cu) (tedit 602D292D)
   (descr "Mounting Hole 2.7mm, no annular, M2.5, DIN965")
   (tags "mounting hole 2.7mm no annular m2.5 din965")
   (attr virtual)
@@ -14,5 +14,5 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (pad "" np_thru_hole circle (at 0 0) (size 2.7 2.7) (drill 2.7) (layers *.Cu *.Mask)
-    (solder_mask_margin 1) (clearance 1))
+    (solder_mask_margin 1) (clearance 1.25))
 )

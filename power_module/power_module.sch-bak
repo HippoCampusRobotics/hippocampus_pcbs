@@ -562,7 +562,7 @@ U 1 1 6026A354
 P 4950 3250
 F 0 "H1" H 5050 3296 50  0000 L CNN
 F 1 "MountingHole" H 5050 3205 50  0000 L CNN
-F 2 "hippo:M3-MountingHole-Masked" H 4950 3250 50  0001 C CNN
+F 2 "hippo:MountingHole_2.7mm_M2.5_Masked" H 4950 3250 50  0001 C CNN
 F 3 "~" H 4950 3250 50  0001 C CNN
 	1    4950 3250
 	1    0    0    -1  
@@ -573,7 +573,7 @@ U 1 1 6026A542
 P 4950 3450
 F 0 "H2" H 5050 3496 50  0000 L CNN
 F 1 "MountingHole" H 5050 3405 50  0000 L CNN
-F 2 "hippo:M3-MountingHole-Masked" H 4950 3450 50  0001 C CNN
+F 2 "hippo:MountingHole_2.7mm_M2.5_Masked" H 4950 3450 50  0001 C CNN
 F 3 "~" H 4950 3450 50  0001 C CNN
 	1    4950 3450
 	1    0    0    -1  
@@ -584,7 +584,7 @@ U 1 1 6026A793
 P 4950 3650
 F 0 "H3" H 5050 3696 50  0000 L CNN
 F 1 "MountingHole" H 5050 3605 50  0000 L CNN
-F 2 "hippo:M3-MountingHole-Masked" H 4950 3650 50  0001 C CNN
+F 2 "hippo:MountingHole_2.7mm_M2.5_Masked" H 4950 3650 50  0001 C CNN
 F 3 "~" H 4950 3650 50  0001 C CNN
 	1    4950 3650
 	1    0    0    -1  
@@ -595,7 +595,7 @@ U 1 1 6026A909
 P 4950 3850
 F 0 "H4" H 5050 3896 50  0000 L CNN
 F 1 "MountingHole" H 5050 3805 50  0000 L CNN
-F 2 "hippo:M3-MountingHole-Masked" H 4950 3850 50  0001 C CNN
+F 2 "hippo:MountingHole_2.7mm_M2.5_Masked" H 4950 3850 50  0001 C CNN
 F 3 "~" H 4950 3850 50  0001 C CNN
 	1    4950 3850
 	1    0    0    -1  
