@@ -83,9 +83,9 @@ U 1 1 602C16DA
 P 650 2350
 F 0 "C1" H 738 2396 50  0000 L CNN
 F 1 "220uF" H 738 2305 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 650 2350 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x11.9" H 650 2350 50  0001 C CNN
 F 3 "~" H 650 2350 50  0001 C CNN
-F 4 "EEH-ZA1E221P" H 650 2350 50  0001 C CNN "MPN"
+F 4 "PCH1V221MCL1GS" H 650 2350 50  0001 C CNN "MPN"
 	1    650  2350
 	1    0    0    -1  
 $EndComp
@@ -246,18 +246,6 @@ F 3 "" H 2650 2650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1650 2250 1550 2250
-$Comp
-L Connector_Generic:Conn_01x03 J2
-U 1 1 602C2648
-P 2750 1000
-F 0 "J2" H 2668 1317 50  0000 C CNN
-F 1 "BM3B-GHS" H 2668 1226 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical" H 2750 1000 50  0001 C CNN
-F 3 "~" H 2750 1000 50  0001 C CNN
-F 4 "BM3B-GHS" H 2750 1000 50  0001 C CNN "MPN"
-	1    2750 1000
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2950 900  3100 900 
 Wire Wire Line
@@ -530,5 +518,38 @@ F 2 "" H 6700 1000 50  0001 C CNN
 F 3 "" H 6700 1000 50  0001 C CNN
 	1    6700 1000
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 602FFF56
+P 2950 900
+F 0 "TP1" V 3000 900 50  0000 C CNN
+F 1 "TestPoint" V 2950 1250 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 3150 900 50  0001 C CNN
+F 3 "~" H 3150 900 50  0001 C CNN
+	1    2950 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 60300698
+P 2950 1000
+F 0 "TP2" V 3000 1000 50  0000 C CNN
+F 1 "TestPoint" V 2950 1350 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 3150 1000 50  0001 C CNN
+F 3 "~" H 3150 1000 50  0001 C CNN
+	1    2950 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 603008D3
+P 2950 1100
+F 0 "TP3" V 3000 1100 50  0000 C CNN
+F 1 "TestPoint" V 2950 1450 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 3150 1100 50  0001 C CNN
+F 3 "~" H 3150 1100 50  0001 C CNN
+	1    2950 1100
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
