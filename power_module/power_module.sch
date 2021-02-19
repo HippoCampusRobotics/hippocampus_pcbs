@@ -638,4 +638,15 @@ F 3 "~" H 1650 1150 50  0001 C CNN
 	1    1650 1150
 	-1   0    0    1   
 $EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 6030D0BC
+P 4950 3850
+F 0 "H4" H 5050 3896 50  0000 L CNN
+F 1 "MountingHole" H 5050 3805 50  0000 L CNN
+F 2 "hippo:MountingHole_2.7mm_M2.5_Masked" H 4950 3850 50  0001 C CNN
+F 3 "~" H 4950 3850 50  0001 C CNN
+	1    4950 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
